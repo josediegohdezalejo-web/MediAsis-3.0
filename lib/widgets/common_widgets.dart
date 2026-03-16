@@ -409,7 +409,7 @@ class ConfirmDialog extends StatelessWidget {
           onPressed: () => Navigator.of(context).pop(false),
           child: Text(
             cancelText,
-            style: TextStyle(color: AppTheme.textSecondary),
+            style: const TextStyle(color: AppTheme.textSecondary),
           ),
         ),
         ElevatedButton(

@@ -1,7 +1,5 @@
-/// Providers de MediAsis
-/// 
-/// Este archivo exporta todos los providers utilizados en la aplicación
-/// para facilitar su importación en otros módulos.
+// Providers de MediAsis
+// Este archivo exporta todos los providers utilizados en la aplicación
 
 export 'pacientes_provider.dart';
 export 'consultas_provider.dart';

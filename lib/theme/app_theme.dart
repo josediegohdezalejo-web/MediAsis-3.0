@@ -359,12 +359,12 @@ class AppTheme {
         labelColor: primaryBlue,
         unselectedLabelColor: textSecondary,
         indicatorColor: primaryBlue,
-        labelStyle: const TextStyle(
+        labelStyle: TextStyle(
           fontFamily: 'Poppins',
           fontSize: 14,
           fontWeight: FontWeight.w600,
         ),
-        unselectedLabelStyle: const TextStyle(
+        unselectedLabelStyle: TextStyle(
           fontFamily: 'Poppins',
           fontSize: 14,
           fontWeight: FontWeight.normal,

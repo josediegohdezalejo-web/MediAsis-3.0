@@ -41,7 +41,7 @@ class _HistoriasScreenState extends State<HistoriasScreen> {
       confirmColor: AppTheme.errorColor,
     );
 
-    if (confirm == true) {
+    if (confirm == true && mounted) {
       final success = await context.read<HistoriasProvider>().deleteHistoria(
         int.parse(historia.id!),
       );

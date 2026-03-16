@@ -298,7 +298,7 @@ class _NuevaConsultaScreenState extends State<NuevaConsultaScreen> {
                       context: context,
                       builder: (context) => const NuevoPacienteDialog(),
                     );
-                    if (result == true) {
+                    if (result == true && mounted) {
                       // Recargar pacientes
                       await context.read<PacientesProvider>().loadPacientes();
                     }

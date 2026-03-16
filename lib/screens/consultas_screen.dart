@@ -1,3 +1,4 @@
+import '../models/models.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/providers.dart';
@@ -145,7 +146,7 @@ class _ConsultasScreenState extends State<ConsultasScreen>
           consultas = consultas.where((c) {
             final query = _searchQuery.toLowerCase();
             return c.motivoConsulta.toLowerCase().contains(query) ||
-                c.diagnostico?.toLowerCase().contains(query) ?? false;
+                (c.diagnostico?.toLowerCase().contains(query) ?? false);
           }).toList();
         }
 

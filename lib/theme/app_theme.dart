@@ -355,7 +355,7 @@ class AppTheme {
       ),
 
       // Tab Bar Theme
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: const TabBarTheme(
         labelColor: primaryBlue,
         unselectedLabelColor: textSecondary,
         indicatorColor: primaryBlue,

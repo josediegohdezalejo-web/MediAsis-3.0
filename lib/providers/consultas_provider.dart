@@ -112,7 +112,7 @@ class ConsultasProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      final id = await _dbHelper.crearConsultaConHistoriaAutomatica(
+      await _dbHelper.crearConsultaConHistoriaAutomatica(...);
         consulta: consulta,
         paciente: paciente,
       );

@@ -294,8 +294,8 @@ class CustomDropdown<T> extends StatelessWidget {
           items: items,
           onChanged: onChanged,
           validator: validator,
-          decoration: InputDecoration(
-            contentPadding: const EdgeInsets.symmetric(
+          decoration: const InputDecoration(
+            contentPadding: EdgeInsets.symmetric(
               horizontal: 16,
               vertical: 14,
             ),

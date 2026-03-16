@@ -505,7 +505,6 @@ class DatabaseHelper {
     required Consulta consulta,
     required Paciente paciente,
   }) async {
-    final db = await database;
     int historiaClinicaId;
 
     // Verificar si el paciente ya tiene historia clínica

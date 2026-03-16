@@ -185,7 +185,7 @@ class _SplashScreenState extends State<SplashScreen>
                         children: [
                           Text(
                             'Medi',
-                            style: TextStyle(
+                            style: const TextStyle(  // agrega const aquí
                               fontFamily: 'Poppins',
                               fontSize: 36,
                               fontWeight: FontWeight.bold,

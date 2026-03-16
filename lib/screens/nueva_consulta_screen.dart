@@ -320,9 +320,9 @@ class _NuevaConsultaScreenState extends State<NuevaConsultaScreen> {
                 ),
                 child: Row(
                   children: [
-                    CircleAvatar(
+                    const CircleAvatar(
                       backgroundColor: AppTheme.primaryBlue,
-                      child: const Icon(Icons.person, color: Colors.white),
+                      child: Icon(Icons.person, color: Colors.white),
                     ),
                     const SizedBox(width: 12),
                     Expanded(

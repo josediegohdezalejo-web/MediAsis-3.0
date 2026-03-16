@@ -1,7 +1,5 @@
-/// Pantallas de MediAsis
-/// 
-/// Este archivo exporta todas las pantallas utilizadas en la aplicación
-/// para facilitar su importación en otros módulos.
+// Pantallas de MediAsis
+// Este archivo exporta todas las pantallas utilizadas en la aplicación
 
 export 'home_screen.dart';
 export 'consultas_screen.dart';

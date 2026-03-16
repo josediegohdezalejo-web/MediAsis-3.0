@@ -1,7 +1,5 @@
-/// Modelos de datos de MediAsis
-/// 
-/// Este archivo exporta todos los modelos utilizados en la aplicación
-/// para facilitar su importación en otros módulos.
+// Modelos de datos de MediAsis
+// Este archivo exporta todos los modelos utilizados en la aplicación
 
 export 'paciente.dart';
 export 'consulta.dart';

@@ -119,7 +119,7 @@ class _HistoriasScreenState extends State<HistoriasScreen> {
                 }
 
                 if (historias.isEmpty) {
-                  return EmptyState(
+                  return const EmptyState(
                     icon: Icons.folder_open,
                     title: 'No hay historias clínicas',
                     message: 'Las historias clínicas se crearán automáticamente al registrar consultas',

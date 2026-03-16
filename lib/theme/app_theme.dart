@@ -61,7 +61,7 @@ class AppTheme {
       scaffoldBackgroundColor: backgroundColor,
       
       // Color Scheme
-      colorScheme: ColorScheme.light(
+      colorScheme: const ColorScheme.light(
         primary: primaryBlue,
         secondary: primaryTeal,
         tertiary: accentGreen,

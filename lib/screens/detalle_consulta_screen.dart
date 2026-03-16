@@ -145,7 +145,7 @@ class _DetalleConsultaScreenState extends State<DetalleConsultaScreen> {
             const SizedBox(height: 16),
             Row(
               children: [
-                CircleAvatar(
+                const CircleAvatar(
                   radius: 30,
                   backgroundColor: AppTheme.primaryBlue,
                   child: const Icon(Icons.person, color: Colors.white, size: 32),

@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/providers.dart';
 import '../theme/app_theme.dart';
 import '../widgets/widgets.dart';
+import '../database/database_helper.dart';
 import 'consultas_screen.dart';
 import 'historias_screen.dart';
 import 'nueva_consulta_screen.dart';
@@ -203,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Colors.white,
                           size: 28,
                         ),
-                        if (_estadisticas['consultasPendientes'] ?? 0 > 0)
+                        if ((_estadisticas['consultasPendientes'] ?? 0) > 0)
                           Positioned(
                             right: 0,
                             top: 0,

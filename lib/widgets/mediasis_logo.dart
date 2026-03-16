@@ -64,7 +64,7 @@ class MediAsisLogo extends StatelessWidget {
                 color: Colors.white,
                 borderRadius: BorderRadius.vertical(
                   top: const Radius.circular(8),
-                  bottom: BorderRadius.circular(size * 0.15),
+                  bottom: Radius.circular(size * 0.15),
                 ),
               ),
               child: Column(
